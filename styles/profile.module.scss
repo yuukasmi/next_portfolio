@@ -1,0 +1,23 @@
+$black: rgb(18, 18, 18);
+
+@import '../styles/_mixins';
+
+.profile{
+  .hd_info{
+    background: rgba(255,255,255,0.9);
+    &__inner{
+    }
+  }
+  &__inner{
+    padding-top: 145px;
+  }
+}
+
+.character{
+  &__list{
+    color: #000;
+  }
+  &__item{
+
+  }
+}
